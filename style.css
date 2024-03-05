@@ -2,6 +2,24 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+body{
+    background-color: #b2bec3;}
+
+.obrys {
+    background-color: white;
+    width: 550px;
+    position: relative;
+    top: 150px;
+}
+
+h1{font-size: 36px;
+    font-weight: bold;
+    font-family: "Nunito";
+    color: #d63031
+       }
+
+
+
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
