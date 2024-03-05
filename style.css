@@ -3,26 +3,69 @@ html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
 body{
-    background-color: #b2bec3;}
+    background-color: #b2bec3; 
+    font-family: "Nunito";
+    font-size: 18px;
+text-align: justify;}
 
 .obrys {
     background-color: white;
+    border-radius: 10px;
     width: 550px;
     position: relative;
     top: 150px;
+    left: 50%;
+    padding: 30px;
+    
 }
+
 .profilovka{
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: solid white 3px;
+    position: absolute;
+    right: -75px;
+    top: -75px;
+}
+.nadpis{
+    margin-bottom: 30px;}
+
+a {text-transform: uppercase;
+    font-weight: bold;
+    
+    
+}
+a:link {
+    color: white;
+} 
+
+.twitter {background-color: #1da1f2;
+    text-align:center;
+    padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 5px;
+margin-bottom: 5px;
+
+}
+a.twitter:hover{
+    background-color: #0b7bc1;
+}
+.facebook {background-color:  #3b5998;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;}
+a.facebook:hover{
+    background-color: #2b406e;
 }
 
 h1{font-size: 36px;
     font-weight: bold;
-    font-family: "Nunito";
     color: #d63031
-       }
+    
+}
+p{font-size: 18px;}
 
 
 
